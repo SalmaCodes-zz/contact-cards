@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Cards</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src= 'main.js'></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form>
+            <div>
+                <p class="label">First name:</p>
+                <input type="text" name="first_name">
+            </div>
+            <div>
+                <p class="label">Last name:</p>
+                <input type="text" name="last_name">
+            </div>
+            <p>Description:</p>
+            <textarea name="description" placeholder="Enter description"></textarea>
+            <input type="submit" value="Add Contact">
+        </form>
+        <div id="contact-list">
+        </div>
+    </div>
+</body>
+</html>
