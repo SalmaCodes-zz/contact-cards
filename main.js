@@ -13,7 +13,6 @@ $(document).ready(function() {
         return false;
     });
     $(document).on("click", "#contact-list div", function() {
-        $(this).children('h1, h4').toggle();
-        $(this).children('p').toggle();
+        $(this).children().toggle();
     });
 });
